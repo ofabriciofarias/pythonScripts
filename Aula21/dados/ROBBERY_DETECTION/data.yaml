@@ -1,0 +1,13 @@
+train: C:/Users/Fabricio/Documents/GitHub/pythonScripts/Aula21/dados/ROBBERY_DETECTION/train/images
+val: C:/Users/Fabricio/Documents/GitHub/pythonScripts/Aula21/dados/ROBBERY_DETECTION/valid/images
+test: C:/Users/Fabricio/Documents/GitHub/pythonScripts/Aula21/dados/ROBBERY_DETECTION/test/images
+
+nc: 2
+names: ['Shoplifting', 'normal']
+
+roboflow:
+  workspace: stevens-institute-of-technology-xjltl
+  project: shoplifting-detection-oxvwp
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/stevens-institute-of-technology-xjltl/shoplifting-detection-oxvwp/dataset/2
